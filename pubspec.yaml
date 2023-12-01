@@ -1,0 +1,62 @@
+name: ali_fouad_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get:
+  shared_preferences:
+  http:
+  fluttertoast:
+  flutter_launcher_icons:
+  connectivity:
+  loading_animations:
+  animated_splash_screen:
+  country_code_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+   - assets/icons/
+
+  fonts:
+    - family: AlexandriaFLF
+      fonts:
+        - asset: assets/fonts/AlexandriaFLF.ttf
+    - family: AlexandriaFLF-Bold
+      fonts:
+        - asset: assets/fonts/AlexandriaFLF-Bold.ttf
+    - family: AlexandriaFLF-Italic
+      fonts:
+        - asset: assets/fonts/AlexandriaFLF-Italic.ttf
+          style: italic
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/icon.png"
